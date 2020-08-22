@@ -4,7 +4,7 @@
 
 [Ściąga ze Scruma](https://github.com/coders-school/qa-sessions/raw/master/session2/sciaga_scrum.pdf)
 
----
+___
 
 ## Scrum - dobre praktyki
 

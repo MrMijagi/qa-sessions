@@ -39,7 +39,7 @@ Stos graficznie. Prawo -> kolejne linie kodu
 |   0   | **pointer = ?** | pointer = ?    | pointer = ? | pointer = ?  | **pointer = &a** !!! | pointer = &a | pointer = &a    | pointer = &a | pointer = &a    |
 |   0   | **number = ?**  | **number = 5** | number = 5  | number = 5   | number = 5           | number = 5   | number = 5      | number = 5   | **number = 50** |
 
----
+___
 
 @Jakub J
 > Generyczne lambdy, jaki jest w takim razie sens stosowania zwykłych lambd(w których przekazujemy konkretny typ)?
@@ -47,7 +47,7 @@ Stos graficznie. Prawo -> kolejne linie kodu
 Ograniczony. Tylko gdy chcemy aby lambda zadziałała dla określonego typu i np nie skompilowała się dla innego.
 Normalnie zalecam stosowanie generycznych. W kodzie można się natknąć na takie i takie. Generyczne weszły w C++14 jeszcze się dobrze nie upowszechniły. Ale mocno do nich zachęcam.
 
----
+___
 
 @lisie_sprawy
 > Przeklejam z innego kanału, żeby nie uciekło :) czemu w niektórych zadaniach związanych z wywaleniem samogłosek pojawia się np. "constexpr int", zamiast "const int"?

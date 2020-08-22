@@ -2,7 +2,7 @@
 
 ## Przykłady z Code Review
 
----
+___
 
 Example:
 
@@ -23,7 +23,7 @@ bool doesPasswordsMatch(const std::string& password, const std::string& repeated
 }
 ```
 
----
+___
 
 Example:
 
@@ -78,7 +78,7 @@ std::string getErrorMessage(ErrorCode error) {
  }
 ```
 
----
+___
 
 Example:
 
@@ -100,7 +100,7 @@ return ErrorCode::PasswordsDoesNotMatch;
 ```
 
 
----
+___
 
 ```cpp
 enum class ErrorCode {
@@ -112,7 +112,7 @@ enum class ErrorCode {
 
 > I do not know really, it's maybe my habit taken from python, to have commas also in the last element of enum/collection, because if I add new element in the future, i didn't have to worry about some errors in regards to missing comma :)
 
----
+___
 
 > A: You can specify a size of vector in constructor :)
 
@@ -136,7 +136,7 @@ resultVector.reserve(count);
 
 https://github.com/coders-school/kurs_cpp_podstawowy/pull/254/files
 
----
+___
 
 Max długość linii - 120. Jak formatować?
 
@@ -189,7 +189,7 @@ auto result = superFunction(mySuperVector,
                             });
 ```
 
----
+___
 
 * [Nice usage of std::map instead of ifs' ladder](https://github.com/coders-school/kurs_cpp_podstawowy/pull/252/files)
 * Zwracajcie uwagę na znaki końca linii na końcu dokumentu.
